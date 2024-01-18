@@ -1,0 +1,45 @@
+body{
+    align-items: center;
+    margin: auto;
+}
+.home-container{
+    margin:10px;
+}
+.home-title{
+    margin:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-description{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+    font-size: 30px;
+    max-width: 70%;
+}
+.home-container .home-buttons *{
+    border: 1px black solid;
+    padding: 10px;
+    margin:20px;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+    height: 50px;
+    
+}
+.home-container .home-buttons{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    max-width: fit-content;
+    padding: 100px;
+    border-radius: 30px;
+}
+#h1{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}

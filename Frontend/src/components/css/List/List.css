@@ -1,0 +1,32 @@
+#list {
+    position: relative;
+    right: -2%;
+
+}
+#entry-list li{
+position: relative;
+right: 0px;
+border: 1px solid black;
+padding: 20px;
+border-radius:20px;
+margin-bottom: 10px;
+max-width: 90%;
+
+}
+
+#entry-list li *{
+    position: relative;
+    top: -18px;
+    margin: 10px;
+}
+
+#entry-list li button{
+    position: relative;
+    top: -18px;
+    background-color: coral;
+    border-radius: 20px;
+    font-size: 18px;
+    width:20%
+}
+
+

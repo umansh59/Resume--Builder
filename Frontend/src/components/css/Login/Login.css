@@ -1,0 +1,39 @@
+
+#container-item{
+    display: flex;
+}
+
+#login-div,#register-div{
+    position:relative;
+    left:400px;
+    top: 100px;
+    background-color:rgba(119, 113, 113, 0.2);
+    max-width: fit-content;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    max-height: fit-content;
+
+}
+
+input{
+    max-width: 300px;
+}
+
+#weblogo{
+    scale: 0.8;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+
+
+#submit-button, .home-buttons *{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    font-size: 18px;
+    background-color: rgb(113, 208, 113);
+    color:white
+}
