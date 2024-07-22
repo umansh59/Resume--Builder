@@ -61,7 +61,7 @@ const formSubmissionSchema = new mongoose.Schema({
   }],
 });
 
-const FormSubmission = mongoose.model('FormSubmission', formSubmissionSchema);
+const FormSubmission = mongoose.model('formSubmission', formSubmissionSchema);
 
 const userSchema = new mongoose.Schema({
   name: String,
